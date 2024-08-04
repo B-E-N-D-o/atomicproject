@@ -4,6 +4,8 @@
     box-sizing: border-box;
 }
 
+/* first flex container  */
+
 .menu-container{
     color: #fff;
     background-color: #5995DA;  /* Blue */
@@ -13,7 +15,7 @@
 }
 
 .menu {
-    border: 1px solid #fff;  /* For debugging */
+    /* border: 1px solid #fff;   */
     width: 900px;
     display: flex;
     justify-content: space-around;
@@ -27,4 +29,21 @@
 
 .login{
     margin-left: 20px;
+}
+
+/* second flex container */
+
+.header-container{
+    color: #5995DA;
+    background-color: #D6E9Fe;
+    display: flex;
+    justify-content: center;
+}
+
+.header {
+    width: 900px;
+    height: 300px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
 }
