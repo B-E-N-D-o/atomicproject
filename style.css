@@ -61,7 +61,7 @@
     justify-content: center;
     align-items: center;
     flex-wrap: wrap;
-    flex-direction: column;
+    flex-direction: row-reverse;
 }
 .photo-grid-item{
     border: 1px solid #fff;
