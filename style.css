@@ -21,12 +21,14 @@
     justify-content: space-around;
   }
 
-.links{
-    /* border: 1px solid #fff; */
+/* .links{
     display: flex;
     justify-content: flex-end;
-}
+} */
 
+.signup{
+    margin: 0 0 0 auto;
+}
 .login{
     margin-left: 20px;
 }
